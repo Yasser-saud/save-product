@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hiberbate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hiberbate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hiberbate-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hiberbate:war exploded" />
+    </root>
+  </artifact>
+</component>
